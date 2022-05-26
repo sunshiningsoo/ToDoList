@@ -5,6 +5,7 @@
 # :iphone: 내가 쓰려고 만든 To-Do-List!
 
 간단하게 내가 쓰려고 만든 투두리스트!
+MVVM 사용
 
 
 ## :pushpin: Features (Will be updated)
