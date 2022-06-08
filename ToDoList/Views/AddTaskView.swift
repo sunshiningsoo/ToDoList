@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddTaskView: View {
     @Environment(\.presentationMode) var presentation
-    @State private var toDoText:String = ""
+    @State private var toDoText: String = ""
     
     var body: some View {
         VStack {
