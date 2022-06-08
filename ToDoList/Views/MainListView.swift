@@ -9,12 +9,19 @@ import SwiftUI
 
 struct MainListView: View {
     var body: some View {
-        Text("!!!")
+        VStack{
+                NavigationLink(destination:AddTaskView()){
+                    Text("You can add Schedule!")
+                }
+        }
     }
 }
 
 struct MainListView_Previews: PreviewProvider {
     static var previews: some View {
-        MainListView()
+        NavigationView {
+            MainListView()
+                .navigationTitle("ToDo")
+        }
     }
 }

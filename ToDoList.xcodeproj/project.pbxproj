@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF1B5C26284F359B00373CE1 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B5C25284F359B00373CE1 /* TaskModel.swift */; };
+		DF1B5C28284F36A400373CE1 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B5C27284F36A400373CE1 /* AddTaskView.swift */; };
 		DF46D17D283F64DC008978E0 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46D17C283F64DC008978E0 /* ToDoListApp.swift */; };
 		DF46D181283F64DE008978E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46D180283F64DE008978E0 /* Assets.xcassets */; };
 		DF46D184283F64DE008978E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46D183283F64DE008978E0 /* Preview Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF1B5C25284F359B00373CE1 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		DF1B5C27284F36A400373CE1 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		DF46D179283F64DC008978E0 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF46D17C283F64DC008978E0 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		DF46D180283F64DE008978E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				DF46D192283FC191008978E0 /* MainListView.swift */,
+				DF1B5C27284F36A400373CE1 /* AddTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		DF46D190283FC15A008978E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DF1B5C25284F359B00373CE1 /* TaskModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1B5C26284F359B00373CE1 /* TaskModel.swift in Sources */,
 				DF46D17D283F64DC008978E0 /* ToDoListApp.swift in Sources */,
 				DF46D193283FC191008978E0 /* MainListView.swift in Sources */,
+				DF1B5C28284F36A400373CE1 /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
