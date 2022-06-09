@@ -13,6 +13,7 @@
 		DF46D181283F64DE008978E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46D180283F64DE008978E0 /* Assets.xcassets */; };
 		DF46D184283F64DE008978E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF46D183283F64DE008978E0 /* Preview Assets.xcassets */; };
 		DF46D193283FC191008978E0 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46D192283FC191008978E0 /* MainListView.swift */; };
+		DFBAF99D2851E31400FA0F2C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBAF99C2851E31400FA0F2C /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DF46D180283F64DE008978E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF46D183283F64DE008978E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF46D192283FC191008978E0 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		DFBAF99C2851E31400FA0F2C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		DF46D191283FC161008978E0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DFBAF99C2851E31400FA0F2C /* ListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBAF99D2851E31400FA0F2C /* ListViewModel.swift in Sources */,
 				DF1B5C26284F359B00373CE1 /* TaskModel.swift in Sources */,
 				DF46D17D283F64DC008978E0 /* ToDoListApp.swift in Sources */,
 				DF46D193283FC191008978E0 /* MainListView.swift in Sources */,
