@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddTaskView: View {
     @Environment(\.presentationMode) var presentation
-    @ObservedObject var listViewModel:ListViewModel
+    @EnvironmentObject var listViewModel:ListViewModel
     @State var toDoText: String = ""
     
     var body: some View {
@@ -29,6 +29,7 @@ struct AddTaskView: View {
 
 struct AddTaskView_Previews: PreviewProvider {
     static var previews: some View {
-        AddTaskView(listViewModel: ListViewModel())
+        AddTaskView()
+            .environmentObject(ListViewModel())
     }
 }

@@ -12,7 +12,7 @@ struct MainListView: View {
     
     var body: some View {
         VStack{
-                NavigationLink(destination:AddTaskView(listViewModel: listViewModel)){
+            NavigationLink(destination:AddTaskView().environmentObject(listViewModel)){
                     Text("You can add Schedule!")
                 }
             

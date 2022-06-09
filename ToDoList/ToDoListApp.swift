@@ -15,8 +15,9 @@ struct ToDoListApp: App {
         WindowGroup {
             NavigationView {
                 MainListView()
-                    .navigationTitle("ToDo")
                     .environmentObject(listViewModel)
+                    .navigationTitle("ToDo")
+                    
             }
         }
     }
